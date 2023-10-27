@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:wght@400;600;700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -36,3 +39,28 @@
     transform: rotate(360deg);
   }
 }
+.flip-card-front {
+  width: 200px;
+  height: 300px; 
+  background-color: #50c5d4; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
